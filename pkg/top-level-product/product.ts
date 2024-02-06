@@ -16,7 +16,7 @@ export function init($plugin:any, store:any) {
 
   // registering a top-level product
   product({
-    icon:    'gear',
+    icon:    'home',
     inStore: 'management',
     weight:  100,
     to:      {
