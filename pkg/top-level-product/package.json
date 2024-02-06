@@ -3,6 +3,7 @@
   "description": "Example extension for a top-level product on Rancher Dashboard",
   "version": "0.1.0",
   "private": false,
+  "icon": "https://raw.githubusercontent.com/panchnayak/marketplace-plugin/main/pkg/top-level-product/home.svg",
   "rancher": {
     "annotations": {
       "catalog.cattle.io/kube-version": ">= 1.16.0-0",
