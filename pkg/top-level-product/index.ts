@@ -6,6 +6,7 @@ import extensionRouting from './routing/extension-routing';
 export default function(plugin: IPlugin) {
   // Auto-import model, detail, edit from the folders
   importTypes(plugin);
+  
   // Provide extension metadata from package.json
   // it will grab information such as `name` and `description`
   plugin.metadata = require('./package.json');
